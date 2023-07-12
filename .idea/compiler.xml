@@ -10,6 +10,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="draft-project" />
+        <module name="java_core_samples_for_qa_auto" />
       </profile>
     </annotationProcessing>
   </component>
