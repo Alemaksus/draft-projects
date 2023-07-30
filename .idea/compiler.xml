@@ -14,4 +14,9 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java_core_samples_for_qa_auto" options="--add-exports java.xml/com.sun.org.apache.xalan.internal.xsltc.compiler.util=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>
