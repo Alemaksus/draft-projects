@@ -1,4 +1,4 @@
-package patterns.Facade;
+package patterns.facade;
 
 public class Computers {
 

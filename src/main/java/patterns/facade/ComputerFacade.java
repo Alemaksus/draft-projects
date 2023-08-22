@@ -1,13 +1,13 @@
-package patterns.Facade;
+package patterns.facade;
 
 /*The Facade pattern provides
  a simplified interface to a complex system or set of subsystems.
  It does not add new features, but makes the system easier to use.*/
 
 
-import patterns.Facade.Computers.CPU;
-import patterns.Facade.Computers.HardDrive;
-import patterns.Facade.Computers.Memory;
+import patterns.facade.Computers.CPU;
+import patterns.facade.Computers.HardDrive;
+import patterns.facade.Computers.Memory;
 
 public class ComputerFacade {
 
