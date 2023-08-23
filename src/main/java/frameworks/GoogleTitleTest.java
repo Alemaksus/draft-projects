@@ -13,7 +13,7 @@ public class GoogleTitleTest {
 
   @Before
   public void setUp() {
-    System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver.exe");
+    System.setProperty("web-driver.chrome.driver", "C:\\WebDriver\\chromedriver.exe");
     driver = new ChromeDriver();
   }
 
