@@ -1,5 +1,7 @@
 package frameworks;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import java.util.concurrent.TimeUnit;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,8 +15,11 @@ public class GoogleTitleTest {
 
   @Before
   public void setUp() {
-    System.setProperty("web-driver.chrome.driver", "C:\\WebDriver\\chromedriver.exe");
+    WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
+    driver.manage().window().maximize();
+    driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
   }
 
   @Test
@@ -28,6 +33,7 @@ public class GoogleTitleTest {
   @After
   public void tearDown() { // Исправлено имя метода с "teatDown" на "tearDown"
     if (driver != null) {
+      driver.close();
       driver.quit();
     }
   }
