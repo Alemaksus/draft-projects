@@ -1,4 +1,4 @@
-package java_course.chapter4_if_else_statement;
+package java_course.chapter3_if_statements;
 
 /*
  * IF ELSE
