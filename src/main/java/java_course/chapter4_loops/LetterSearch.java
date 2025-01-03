@@ -19,11 +19,10 @@ public class LetterSearch {
         boolean letterFound = false;
 
         //Search text for letter A
-        for(int i=0; i<word.length(); i++){
+        for(int i=0; !letterFound && i<word.length(); i++){
             char currentLetter = word.charAt(i);
             if(currentLetter == 'A' || currentLetter == 'a'){
                 letterFound = true;
-                break;
             }
         }
 
