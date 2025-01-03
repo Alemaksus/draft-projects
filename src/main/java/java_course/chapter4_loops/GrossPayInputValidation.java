@@ -15,14 +15,14 @@ package java_course.chapter4_loops;
  * If that's true, the statements inside of the loop are executed.
  * Then the condition is rechecked to determine if to run the loop again.
  *
- * Remember to update the sentinel inside of your loop.
+ * Remember to update the sentinel inside your loop.
  */
 
 import java.util.Scanner;
 
 public class GrossPayInputValidation {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         //Initialize known variables
         int rate = 15;
