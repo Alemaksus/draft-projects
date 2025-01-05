@@ -1,4 +1,4 @@
-package java_course.chapter3_if_statements;
+package java_course_tau.chapter3_if_statements;
 
 /*
  * SWITCH

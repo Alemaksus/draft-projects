@@ -1,4 +1,4 @@
-package java_course.chapter2_fundamentals;
+package java_course_tau.chapter2_fundamentals;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package java_course.chapter4_loops;
+package java_course_tau.chapter4_loops;
 
 /*
  * WHILE LOOP:
