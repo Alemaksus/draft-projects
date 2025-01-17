@@ -1,4 +1,4 @@
-package chapter6_classes_and_objects;
+package java_course_tau.chapter6_classes_and_objects;
 
 import java.util.Scanner;
 
