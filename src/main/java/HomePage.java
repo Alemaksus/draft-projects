@@ -1,8 +1,5 @@
-import static com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Element;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
 
 public class HomePage {
 
